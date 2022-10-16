@@ -3,7 +3,7 @@
 package emoji
 
 import (
-    "github.com/forPelevin/gomoji"
+	"github.com/forPelevin/gomoji"
 	"strings"
 	//"fmt"
 )
@@ -24,7 +24,7 @@ func ConvFuncHeader(def string) {
 // Ukeycap_1 needs to be converted back into 1️⃣ 
 // Ukeycap_1Ukeycap_1 needs to be converted back into 1️⃣1️⃣ 
 func ConvFuncBack(def string) string {
-    strings.Replace(def, "U", " ", -1)
+	strings.Replace(def, "U", " ", -1)
 	strings.Replace(def, "_", "-", -1)
 	emojis := strings.Fields(def)
 
@@ -48,6 +48,6 @@ func GetEmojiDefinitions() map[string]string {
 	for _, x:= range emojis {
 		emojilist[x.Slug] = x.Character
 		//fmt.Printf("%v%v\n", x.Slug, x.Character)
-    }  
+	}  
 	return emojilist
 }

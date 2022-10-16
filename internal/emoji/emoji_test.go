@@ -1,13 +1,13 @@
 package emoji
 
 import (
-    "testing"
-    "github.com/stretchr/testify/assert"
+	"testing"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGetEmojiDefs(t *testing.T) {
-  assert.Equal(t, "🚮", GetEmojiDefinitions()["litter-in-bin-sign"])
-  assert.Equal(t, "🪫", GetEmojiDefinitions()["low-battery"])
+	assert.Equal(t, "🚮", GetEmojiDefinitions()["litter-in-bin-sign"])
+	assert.Equal(t, "🪫", GetEmojiDefinitions()["low-battery"])
 }
 
 func TestStringToEmoji(t *testing.T) {

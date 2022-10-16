@@ -2,7 +2,7 @@
 package emoji
 
 import (
-    "github.com/forPelevin/gomoji"
+	"github.com/forPelevin/gomoji"
 	"strings"
 	//"fmt"
 )
