@@ -2,6 +2,6 @@
 package cmd
 
 // Main command line implementation
-func Do(args []string, stdin io.Reader, stdout io.Writer, stderr io.Writer) int {
-	
-}
+//func Do(args []string, stdin io.Reader, stdout io.Writer, stderr io.Writer) int {
+//	return 1
+//}
